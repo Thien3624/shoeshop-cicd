@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'dev-server'
+        label 'test'
     }
     environment {
         appUser = "shoeshop"
